@@ -1,0 +1,19 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.maven.downloadSources": true,
+  "java.maven.updateSnapshots": true,
+  "java.eclipse.downloadSources": true,
+  "java.format.enabled": false,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.java$",
+        "cmd": "spotless-apply-file .+${relativeFile}"
+      },
+    ],
+  },
+  "[java]": {
+    "editor.formatOnSave": false,
+  }
+}
