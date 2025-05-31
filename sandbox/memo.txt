@@ -1,0 +1,29 @@
+Åúquarkus-lib
+
+https://quarkus.io/guides/writing-extensions
+
+mvn io.quarkus.platform:quarkus-maven-plugin:3.22.1:create-extension
+
+
+Åúquarkus-lambda-http-ap
+https://quarkus.io/extensions/io.quarkus/quarkus-amazon-lambda-rest/
+
+mvn archetype:generate -DarchetypeGroupId=io.quarkus -DarchetypeArtifactId=quarkus-amazon-lambda-http-archetype -DarchetypeVersion=3.22.1
+
+
+Åúquarkus-lambda-rest-ap
+https://quarkus.io/extensions/io.quarkus/quarkus-amazon-lambda-rest/
+
+mvn archetype:generate -DarchetypeGroupId=io.quarkus -DarchetypeArtifactId=quarkus-amazon-lambda-rest-archetype -DarchetypeVersion=3.22.1
+
+
+Åú
+https://quarkus.io/guides/getting-started
+
+mvn io.quarkus.platform:quarkus-maven-plugin:3.22.1:create
+
+Åú
+https://quarkus.io/guides/aws-lambda
+
+mvn archetype:generate -DarchetypeGroupId=io.quarkus -DarchetypeArtifactId=quarkus-amazon-lambda-archetype -DarchetypeVersion=3.22.1
+

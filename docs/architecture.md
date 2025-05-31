@@ -209,7 +209,35 @@ vertx
 ## ライブラリ化
 
 - [独自のエクステンションの作成](https://ja.quarkus.io/guides/writing-extensions)
+- [Creating a Quarkus extension for AWS CloudWatch](https://quarkus.io/blog/quarkus-aws-cloudwatch_extension/)
+- [Solving problems with custom Quarkus extensions](https://quarkus.io/blog/solving-problems-with-custom-extensions/)
+
+  - 以下のコマンドで、ひな形を作成する。
+
+```cmd
+mvn io.quarkus:quarkus-maven-plugin:create-extension -DwithoutTests
+```
 
 ## 設定値管理
 
 - [設定リファレンスガイド](https://ja.quarkus.io/guides/config-reference)
+
+## Uber-jarとFast-jar
+
+- [QuarkusのFast-JARパッケージ](https://blog.worldline.tech/2023/09/05/quarkus-fast-jar.html)
+
+## Mavenのexecutionタグ
+
+- [Guide to Configuring Plug-ins](https://maven.apache.org/guides/mini/guide-configuring-plugins.html)
+
+## Mavenプラグイン
+
+- [QuarkusとMaven](https://quarkus.io/guides/maven-tooling.html)
+- [Quarkus Mavenプラグイン](https://ja.quarkus.io/guides/quarkus-maven-plugin)
+
+- [マルチモジュールプロジェクトでの作業](https://quarkus.io/guides/maven-tooling.html#multi-module-maven)
+
+## IDE統合
+
+- [IDE サポートのヒント](https://ja.quarkus.io/guides/writing-extensions#ide-support-tips)
+  - pom.xmlのプロパティに、`<m2e.apt.activation>jdt_apt</m2e.apt.activation>` を設定
